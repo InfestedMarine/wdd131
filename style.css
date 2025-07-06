@@ -1,0 +1,116 @@
+:root {
+  --primary-color: #1E4C70;         /* Deep blue for header and footer */
+  --accent-color: #FFD700;          /* Yellow accent for name or highlights */
+  --dark-color: #333333;            /* Dark background for nav */
+  --light-color: #ffffff;           /* White text or background */
+  --text-color: #222222;            /* Standard text */
+  --muted-text-color: #555555;      /* For captions or secondary text */
+  --background-color: #f9f9f9;      /* Page background */
+  --card-background: #ffffff;       /* Card sections */
+  --border-color: #cccccc;
+  --hover-color: #555555;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+#course-title {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+#course-title span {
+  color: var(--accent-color);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: var(--dark-color);
+  padding: 0.5rem 0;
+  gap: 2rem;
+}
+
+nav a {
+  color: var(--light-color);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: var(--hover-color);
+}
+
+main {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  margin: -1.5rem -1.5rem 1rem -1.5rem;
+  padding: 0.75rem;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+  display: block;
+  margin-top: 1rem;
+  padding-left: 40px;
+}
+
+.card em {
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  padding-right: 500px;
+  color: var(--muted-text-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0.3rem;
+}
+
+#lastModified {
+  color: var(--accent-color);
+}
