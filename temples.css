@@ -129,3 +129,10 @@ figcaption {
   display: block;
   margin: 0 auto;
 }
+
+.icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin: 0 auto;
+}
