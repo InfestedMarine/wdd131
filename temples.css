@@ -124,3 +124,8 @@ figcaption {
   font-size: 1.5rem;
   margin-left: 5px;
 }
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+}
