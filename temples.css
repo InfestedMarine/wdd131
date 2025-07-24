@@ -117,3 +117,18 @@ figcaption {
   margin-top: 0.5rem;
   font-weight: 600;
 }
+
+.hero {
+  width: 100%;
+  height: 60vh;
+  background-image: url("images/hero-image-big.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+/* For smaller screens */
+@media screen and (max-width: 600px) {
+  .hero {
+    background-image: url("images/hero-image.webp");
+  }
+}
