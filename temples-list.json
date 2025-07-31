@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Cebu Philippines Temple",
+    "location": "Cebu City, Philippines",
+    "dedicated": "2010-06-13",
+    "area": 29700,
+    "imageUrl": "images/cebu-philippines-temple.jpeg"
+  },
+  {
+    "name": "Concepcion Chile Temple",
+    "location": "Concepción, Chile",
+    "dedicated": "2018-10-28",
+    "area": 23200,
+    "imageUrl": "images/concepcion-chile-temple.jpeg"
+  },
+  {
+    "name": "Fortaleza Brazil Temple",
+    "location": "Fortaleza, Brazil",
+    "dedicated": "2019-06-02",
+    "area": 38500,
+    "imageUrl": "images/fortaleza-brazil-temple.jpeg"
+  },
+  {
+    "name": "Ivory Coast Temple",
+    "location": "Abidjan, Côte d'Ivoire",
+    "dedicated": "2020-11-08",
+    "area": 27000,
+    "imageUrl": "images/ivory-coast-temple.jpeg"
+  },
+  {
+    "name": "Laie Hawaii Temple",
+    "location": "Laie, Hawaii, United States",
+    "dedicated": "1919-11-27",
+    "area": 42300,
+    "imageUrl": "images/laie-hawaii-temple.jpeg"
+  },
+  {
+    "name": "Manila Philippines Temple",
+    "location": "Quezon City, Philippines",
+    "dedicated": "1984-09-25",
+    "area": 26400,
+    "imageUrl": "images/manila-philippines-Temple.jpeg"
+  },
+  {
+    "name": "Mexico City Temple",
+    "location": "Mexico City, Mexico",
+    "dedicated": "1983-12-02",
+    "area": 116642,
+    "imageUrl": "images/mexico-city-temple.jpeg"
+  },
+  {
+    "name": "Rome Italy Temple",
+    "location": "Rome, Italy",
+    "dedicated": "2019-03-10",
+    "area": 40000,
+    "imageUrl": "images/rome-italy-temple.jpeg"
+  },
+  {
+    "name": "Salt Lake Temple",
+    "location": "Salt Lake City, Utah, United States",
+    "dedicated": "1893-04-06",
+    "area": 253015,
+    "imageUrl": "images/salt-lake-temple.jpeg"
+  },
+  {
+    "name": "Urdaneta Philippines Temple",
+    "location": "Urdaneta, Pangasinan, Philippines",
+    "dedicated": "2010-10-2",
+    "area": 18000,
+    "imageUrl": "images/urdaneta-philippines-temple.jpeg"
+  }
+]

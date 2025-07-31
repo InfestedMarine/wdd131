@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 – Dynamic Web Fundamentals – Cyan D. Sanchez</title>
+        <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Cyan D. Sanchez | Learning HTML, CSS, JavaScript, and web fundamentals.">
+        <meta name="author" content="Cyan D. Sanchez">
+        <link rel="stylesheet" href="temples.css">
+        <link rel="stylesheet" href="temples-large.css" media="screen and (min-width: 640px)">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="filtered-temples-script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <span id="course-title">Temple Album</span>
+            <h1>Temple</h1>
+            <button id="menu-button">&#9776;</button>
+            <nav id="main-nav">
+                <a href="index.html">Home</a>
+                <button data-filter="old">Old</button>
+                <button data-filter="new">New</button>
+                <button data-filter="large">Large</button>
+                <button data-filter="small">Small</button>
+            </nav>
+        </header>
+        <main>
+            <div id="temples"></div>
+        </main>
+        <footer>
+            <p>&copy; &#127774; <span id="currentyear"></span> Cyan D. Sanchez &#127774; | Philippines</p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>
