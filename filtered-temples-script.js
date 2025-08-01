@@ -54,7 +54,7 @@ fetch("temples-list.json")
     console.error("Error loading temple data:", err);
   });
 
-// Filter  STUFF
+// Filter STUFF
 nav.addEventListener("click", (e) => {
   if (!e.target.matches("button")) return;
 
@@ -75,10 +75,13 @@ nav.addEventListener("click", (e) => {
       });
       break;
     case "large":
-      filtered = allTemples.filter(t => parseInt(t.area) > 90000);
+      filtered = allTemples.filter(t => Number(t.area) > 90000);
       break;
     case "small":
-      filtered = allTemples.filter(t => parseInt(t.area) < 10000);
+      filtered = allTemples.filter(t => Number(t.area) < 10000);
+      break;
+    case "home":
+      filtered = allTemples;
       break;
     default:
       filtered = allTemples;
