@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 – Dynamic Web Fundamentals – Cyan D. Sanchez</title>
+        <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Cyan D. Sanchez | Learning HTML, CSS, JavaScript, and web fundamentals.">
+        <meta name="author" content="Cyan D. Sanchez">
+        <link rel="stylesheet" href="product-form-style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="product-script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <span id="course-title">Product Review Form</span>
+            <h1>Thank you for your Review!</h1>
+            <nav id="main-nav">
+                <a href="index.html">Home</a>
+            </nav>
+        </header>
+        <main>
+            <p>Your review has been submitted successfully.</p>
+            <p id="reviewCount"></p>
+        </main>
+        <footer>
+            <p>&copy; &#127774; <span id="currentyear"></span> Cyan D. Sanchez &#127774; | Philippines</p>
+            <p id="lastModified"></p>
+        </footer>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                let count = localStorage.getItem("reviewCount") || 0;
+                count++;
+                localStorage.setItem("reviewCount", count);
+                document.getElementById("reviewCount").textContent =
+                `You have submitted ${count} review(s).`;
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+:root {
+  --primary-color: #3E5F44;         /* Deep blue for header and footer */
+  --accent-color: #E8FFD7;          /* Yellow accent for name or highlights */
+  --dark-color: #333333;            /* Dark background for nav */
+  --light-color: #ffffff;           /* White text or background */
+  --text-color: #222222;            /* Standard text */
+  --muted-text-color: #555555;      /* For captions or secondary text */
+  --background-color: #93DA97;      /* Page background */
+  --card-background: #ffffff;       /* Card sections */
+  --border-color: #cccccc;
+  --hover-color: #555555;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+#course-title {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+#course-title span {
+  color: var(--accent-color);
+}
+
+main {
+  max-width: 90%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  text-align: center;
+  margin: auto;
+}
+
+label, fieldset {
+  margin-top: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #003366;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #0055a5;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0.3rem;
+}
+
+#lastModified {
+  color: var(--accent-color);
+}
